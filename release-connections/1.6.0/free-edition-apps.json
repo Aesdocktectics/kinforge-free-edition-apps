@@ -1,0 +1,28 @@
+{
+  "version": "1.6.0",
+  "slug": "free-edition-apps",
+  "title": "Free Edition Apps",
+  "audience": "Free users and demo users",
+  "site": "Public site free account entry",
+  "app": "Free Mac, Windows and installable web app channel",
+  "access": "Free account or demo access; no owner tools",
+  "releaseSource": {
+    "ownerPullRequest": "https://github.com/Aesdocktectics/kinforge-genealogy-studio/pull/19",
+    "ownerBranch": "codex/kinforge-owner-1.6.0",
+    "manifest": "server/releaseManifest.ts",
+    "updateFolder": "Downloads/KinForge Genealogy Studio Supreme Suite/Updates/1.6.0"
+  },
+  "packages": [
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Apple-Silicon.dmg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Apple-Silicon.pkg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Intel.dmg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Intel.pkg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-x64-setup.exe",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-x64-portable.exe"
+  ],
+  "requirements": [
+    "Connect 1.6.0 app packages to the free channel",
+    "Keep owner console, payments ledger and admin controls hidden",
+    "Allow library creation, demo use and upgrade prompts without forcing pricing on landing"
+  ]
+}
